@@ -1,0 +1,15 @@
+streamlit==1.33.0
+streamlit_option_menu==0.3.12
+streamlit_shadcn_ui
+numpy==1.23.5
+matplotlib==3.6.3
+pandas==1.5.2
+scikit_learn==1.2.2
+seaborn==0.13.2
+xgboost==1.7.3
+joblib
+tabulate
+
+# pip install -r  requirements.txt (use this to install all packages)
+# need a python 3.11.0 to run the project 
+#make sure installed same version of packages
