@@ -23,7 +23,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/MS%20Dhoni.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/MS%20Dhoni.png?v=4",
+        "player_score": 48.92
     },
     {
         "id": "deb497dd-58c8-4e41-a533-9b6d39e07d37",
@@ -49,7 +50,8 @@
         "Economy_Rate": 4.402941176470588,
         "Bowling_Strike_Rate": 6.561176470588235,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Rohit%20Sharma.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Rohit%20Sharma.png?v=4",
+        "player_score": 30.694705882352945
     },
     {
         "id": "0cc979bb-561a-4659-8980-2b8a62ab9e5f",
@@ -75,7 +77,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Dinesh%20Karthik.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Dinesh%20Karthik.png?v=4",
+        "player_score": 35.65588235294118
     },
     {
         "id": "22bc35a0-01db-416a-ad96-94788e7ba00c",
@@ -101,7 +104,8 @@
         "Economy_Rate": 3.995882352941176,
         "Bowling_Strike_Rate": 4.352941176470588,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Virat%20Kohli.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Virat%20Kohli.png?v=4",
+        "player_score": 38.112941176470585
     },
     {
         "id": "d9515e1e-a52a-4c27-b5a4-5b4ab7aebc00",
@@ -127,7 +131,8 @@
         "Economy_Rate": 7.58625,
         "Bowling_Strike_Rate": 22.999375,
         "Type": "All-rounder",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Ravindra%20Jadeja.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Ravindra%20Jadeja.png?v=4",
+        "player_score": 28.737812499999997
     },
     {
         "id": "1151de67-1088-4de0-8788-4e91ac8b668b",
@@ -153,7 +158,8 @@
         "Economy_Rate": 0.8623529411764705,
         "Bowling_Strike_Rate": 1.411764705882353,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Shikhar%20Dhawan.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Shikhar%20Dhawan.png?v=4",
+        "player_score": 34.16058823529412
     },
     {
         "id": "5cfa0fc6-832d-471e-9fe7-4387155b6fee",
@@ -179,7 +185,8 @@
         "Economy_Rate": 6.891333333333334,
         "Bowling_Strike_Rate": 24.626666666666665,
         "Type": "Bowler",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Ravichandran%20Ashwin.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Ravichandran%20Ashwin.png?v=4",
+        "player_score": 29.034
     },
     {
         "id": "484243df-8e41-47fb-9441-b21f10a65c30",
@@ -205,7 +212,8 @@
         "Economy_Rate": 0.8,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/David%20Warner.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/David%20Warner.png?v=4",
+        "player_score": 40.07666666666667
     },
     {
         "id": "b38e391a-19e4-463e-8c81-f154ed2d68d1",
@@ -231,7 +239,8 @@
         "Economy_Rate": 8.23,
         "Bowling_Strike_Rate": 20.920625,
         "Type": "Bowler",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Piyush%20Chawla.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Piyush%20Chawla.png?v=4",
+        "player_score": 28.605000000000004
     },
     {
         "id": "7dbaba5a-2730-4a43-bf04-e8297e2e9370",
@@ -257,7 +266,8 @@
         "Economy_Rate": 0.3125,
         "Bowling_Strike_Rate": 0.375,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Ajinkya%20Rahane.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Ajinkya%20Rahane.png?v=4",
+        "player_score": 26.356875000000002
     },
     {
         "id": "8a35a36d-2648-4c23-bf07-3d88ec20f248",
@@ -283,7 +293,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_640,q_50/lsci/db/PICTURES/CMS/323000/323052.png"
+        "img_url": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_640,q_50/lsci/db/PICTURES/CMS/323000/323052.png",
+        "player_score": 30.691249999999997
     },
     {
         "id": "0c9d6d70-033e-4a3a-a4ac-79b886c5bd5c",
@@ -309,7 +320,8 @@
         "Economy_Rate": 6.677692307692308,
         "Bowling_Strike_Rate": 26.071538461538463,
         "Type": "Bowler",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Sunil%20Narine.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Sunil%20Narine.png?v=4",
+        "player_score": 29.588461538461537
     },
     {
         "id": "b4530c36-5528-44bd-b0bc-0f2ef7c6d6b5",
@@ -335,7 +347,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Wriddhiman%20Saha.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Wriddhiman%20Saha.png?v=4",
+        "player_score": 37.510000000000005
     },
     {
         "id": "090ea9f0-eb06-420b-bba7-860429c8f612",
@@ -361,7 +374,8 @@
         "Economy_Rate": 7.687142857142858,
         "Bowling_Strike_Rate": 22.395714285714284,
         "Type": "Bowler",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Bhuvneshwar%20Kumar.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Bhuvneshwar%20Kumar.png?v=4",
+        "player_score": 27.42
     },
     {
         "id": "491e0293-0d3a-434a-8af8-9efee605697a",
@@ -387,7 +401,8 @@
         "Economy_Rate": 7.454,
         "Bowling_Strike_Rate": 19.857333333333333,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 25.040666666666667
     },
     {
         "id": "b8bee619-cab9-446c-8dde-e67592209e76",
@@ -413,7 +428,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Sanju%20Samson.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Sanju%20Samson.png?v=4",
+        "player_score": 36.659166666666664
     },
     {
         "id": "6ade5672-7f81-4138-bdaa-6eafb979f13c",
@@ -439,7 +455,8 @@
         "Economy_Rate": 7.803333333333334,
         "Bowling_Strike_Rate": 16.335833333333333,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 20.825
     },
     {
         "id": "fc30b7a6-21a1-4791-9214-55b00950fa62",
@@ -465,7 +482,8 @@
         "Economy_Rate": 9.003571428571428,
         "Bowling_Strike_Rate": 28.050714285714285,
         "Type": "Bowler",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Umesh%20Yadav.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Umesh%20Yadav.png?v=4",
+        "player_score": 42.59142857142857
     },
     {
         "id": "50a3597d-55fd-4c59-8c0d-ffc4a5db1aae",
@@ -491,7 +509,8 @@
         "Economy_Rate": 0.7272727272727273,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Suryakumar%20Yadav.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Suryakumar%20Yadav.png?v=4",
+        "player_score": 28.36909090909091
     },
     {
         "id": "643b3027-d6f1-4ad1-93a9-c9527179f0ef",
@@ -517,7 +536,8 @@
         "Economy_Rate": 7.241818181818181,
         "Bowling_Strike_Rate": 26.33909090909091,
         "Type": "All-rounder",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Axar%20Patel.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Axar%20Patel.png?v=4",
+        "player_score": 26.56681818181818
     },
     {
         "id": "18809288-88b2-440a-821b-1a79e51692be",
@@ -543,7 +563,8 @@
         "Economy_Rate": 1.3333333333333333,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Faf%20Du%20Plessis.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Faf%20Du%20Plessis.png?v=4",
+        "player_score": 32.7525
     },
     {
         "id": "f15d3a3f-ebff-4075-a752-4b29e1c62882",
@@ -569,7 +590,8 @@
         "Economy_Rate": 8.806666666666667,
         "Bowling_Strike_Rate": 23.34583333333333,
         "Type": "All-rounder",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Glenn%20Maxwell.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Glenn%20Maxwell.png?v=4",
+        "player_score": 28.412916666666664
     },
     {
         "id": "6c56054f-e541-4553-b5a8-19863f38f33b",
@@ -595,7 +617,8 @@
         "Economy_Rate": 7.220999999999999,
         "Bowling_Strike_Rate": 26.663999999999998,
         "Type": "All-rounder",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Hardik%20Pandya.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Hardik%20Pandya.png?v=4",
+        "player_score": 34.456999999999994
     },
     {
         "id": "ba11a7af-f581-4f73-b2e7-19e60e6cb39c",
@@ -621,7 +644,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": "https://scores.iplt20.com/ipl/playerimages/Mayank%20Agarwal.png?v=4"
+        "img_url": "https://scores.iplt20.com/ipl/playerimages/Mayank%20Agarwal.png?v=4",
+        "player_score": 0.0
     },
     {
         "id": "d5153802-b2c8-4a8a-9126-f5230d9011b0",
@@ -647,7 +671,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.89923076923077
     },
     {
         "id": "19c67c34-7dd8-4b43-8b66-d9ebf0ca5f26",
@@ -673,7 +698,8 @@
         "Economy_Rate": 7.581818181818182,
         "Bowling_Strike_Rate": 20.644545454545455,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 27.449999999999996
     },
     {
         "id": "155d57ae-9e6f-4858-b491-9cbec5072492",
@@ -699,7 +725,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 53.098181818181814
     },
     {
         "id": "ef608e87-af48-4743-8260-c478567c9e7b",
@@ -725,7 +752,8 @@
         "Economy_Rate": 7.839166666666666,
         "Bowling_Strike_Rate": 25.3,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 33.23416666666667
     },
     {
         "id": "252efac8-29da-4513-8b49-95ae6e03a8bb",
@@ -751,7 +779,8 @@
         "Economy_Rate": 7.051111111111111,
         "Bowling_Strike_Rate": 26.555555555555557,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.724444444444444
     },
     {
         "id": "76b21cbd-3b3f-42bf-b7b1-f4dfbe077cf8",
@@ -777,7 +806,8 @@
         "Economy_Rate": 9.859166666666667,
         "Bowling_Strike_Rate": 20.769166666666667,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.502083333333335
     },
     {
         "id": "f0897581-c696-4284-a483-860418911563",
@@ -803,7 +833,8 @@
         "Economy_Rate": 6.83375,
         "Bowling_Strike_Rate": 21.81875,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 25.33125
     },
     {
         "id": "649738fd-6fd5-4e30-93f0-2bb08c4aa6dd",
@@ -829,7 +860,8 @@
         "Economy_Rate": 8.121,
         "Bowling_Strike_Rate": 21.3,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.131999999999998
     },
     {
         "id": "7d92dbb8-3d51-4bc3-aa45-ddae67002b1c",
@@ -855,7 +887,8 @@
         "Economy_Rate": 6.29111111111111,
         "Bowling_Strike_Rate": 4.768888888888889,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 27.316666666666666
     },
     {
         "id": "b62fbfe5-c8ad-4165-9eed-b11358e3aba2",
@@ -881,7 +914,8 @@
         "Economy_Rate": 0.7777777777777778,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.803333333333327
     },
     {
         "id": "9db929da-698a-4cda-bf33-6b73574ca734",
@@ -907,7 +941,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 42.00375
     },
     {
         "id": "c7c40722-2d40-4e35-8e42-e2b54471d2fd",
@@ -933,7 +968,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 37.60272727272727
     },
     {
         "id": "068bd435-a1fb-45a0-b6f3-a3ab79f39428",
@@ -959,7 +995,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 44.406666666666666
     },
     {
         "id": "1fdd739c-4884-485c-8be0-d1026c6a4f79",
@@ -985,7 +1022,8 @@
         "Economy_Rate": 9.687142857142858,
         "Bowling_Strike_Rate": 16.12,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 23.76928571428571
     },
     {
         "id": "cdd53e1e-89a3-4519-b74a-5d95f15b9ac8",
@@ -1011,7 +1049,8 @@
         "Economy_Rate": 9.361666666666666,
         "Bowling_Strike_Rate": 23.6575,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 37.7225
     },
     {
         "id": "4021cba4-15e0-479b-87f3-10367e9ee2d0",
@@ -1037,7 +1076,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 36.212857142857146
     },
     {
         "id": "0ed2e4bb-21f8-46d0-89df-b4c578a9b906",
@@ -1063,7 +1103,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 10.0
     },
     {
         "id": "b46955bd-bbe5-42a0-abf5-657e8f619a0a",
@@ -1089,7 +1130,8 @@
         "Economy_Rate": 1.5,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.022499999999997
     },
     {
         "id": "7dfe6d96-0276-401d-b1ba-027c54c5bcd7",
@@ -1115,7 +1157,8 @@
         "Economy_Rate": 8.541,
         "Bowling_Strike_Rate": 20.185,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.865999999999996
     },
     {
         "id": "b3719afe-6ac8-4694-b5d7-52de156998c3",
@@ -1141,7 +1184,8 @@
         "Economy_Rate": 9.63375,
         "Bowling_Strike_Rate": 19.07875,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 30.528750000000006
     },
     {
         "id": "6e617036-1144-4fa9-9434-8097c23cb7ed",
@@ -1167,7 +1211,8 @@
         "Economy_Rate": 8.768,
         "Bowling_Strike_Rate": 18.934,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.4
     },
     {
         "id": "42d48845-d702-4a43-a5f5-9846410b8468",
@@ -1193,7 +1238,8 @@
         "Economy_Rate": 8.78,
         "Bowling_Strike_Rate": 21.27111111111111,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.59388888888889
     },
     {
         "id": "7ee32e3f-c350-43c9-8c92-f5052422c28e",
@@ -1219,7 +1265,8 @@
         "Economy_Rate": 7.266,
         "Bowling_Strike_Rate": 15.934999999999999,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 20.6085
     },
     {
         "id": "2cbf5f5b-abe2-419a-9636-12f3ec91e965",
@@ -1245,7 +1292,8 @@
         "Economy_Rate": 8.59625,
         "Bowling_Strike_Rate": 22.1575,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.9275
     },
     {
         "id": "79579f6b-8a29-4909-8458-84a324c6d12c",
@@ -1271,7 +1319,8 @@
         "Economy_Rate": 2.111111111111111,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 30.92777777777778
     },
     {
         "id": "911cd420-3315-4ffc-8545-5dd4fd5d8453",
@@ -1297,7 +1346,8 @@
         "Economy_Rate": 8.9025,
         "Bowling_Strike_Rate": 28.81875,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 43.07125
     },
     {
         "id": "e0a862be-8e41-4848-a7f3-caedbadca0bb",
@@ -1323,7 +1373,8 @@
         "Economy_Rate": 8.348181818181818,
         "Bowling_Strike_Rate": 14.205454545454545,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 20.924545454545452
     },
     {
         "id": "b2c5569d-4321-4e89-9a83-3c111a8de14c",
@@ -1349,7 +1400,8 @@
         "Economy_Rate": 8.43375,
         "Bowling_Strike_Rate": 21.415,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.095
     },
     {
         "id": "183e83c7-ccaa-41da-a924-288aee0079e6",
@@ -1375,7 +1427,8 @@
         "Economy_Rate": 7.73625,
         "Bowling_Strike_Rate": 28.4625,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 37.39
     },
     {
         "id": "3234340c-c5f8-4a34-b159-e3ae1be5e7db",
@@ -1401,7 +1454,8 @@
         "Economy_Rate": 8.559285714285714,
         "Bowling_Strike_Rate": 27.23785714285714,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 40.29357142857143
     },
     {
         "id": "675e7f27-c234-4d19-ba25-2f3adfe54f84",
@@ -1427,7 +1481,8 @@
         "Economy_Rate": 8.434285714285714,
         "Bowling_Strike_Rate": 16.624285714285715,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 23.595714285714287
     },
     {
         "id": "b7a30ac1-38ea-4903-b82c-9123d846b32b",
@@ -1453,7 +1508,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "b8985df4-d8a2-4a2c-a2f7-953a382ee3fd",
@@ -1479,7 +1535,8 @@
         "Economy_Rate": 7.948571428571428,
         "Bowling_Strike_Rate": 24.425714285714285,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 32.69285714285714
     },
     {
         "id": "c15d106f-18be-4425-b797-8eeceefbc089",
@@ -1505,7 +1562,8 @@
         "Economy_Rate": 7.184444444444444,
         "Bowling_Strike_Rate": 13.305555555555555,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 21.327222222222222
     },
     {
         "id": "47f24a93-2fc3-4f8b-9247-93c15a0d373f",
@@ -1531,7 +1589,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 10.0
     },
     {
         "id": "d43e4e87-3ccf-4b48-a020-372a9f5adbe4",
@@ -1557,7 +1616,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 27.175
     },
     {
         "id": "a6894a47-2fed-40d3-b570-8729e13df49d",
@@ -1583,7 +1643,8 @@
         "Economy_Rate": 7.166666666666667,
         "Bowling_Strike_Rate": 23.645,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.45666666666667
     },
     {
         "id": "b3b81104-7402-4201-ac76-7d59a6f40d90",
@@ -1609,7 +1670,8 @@
         "Economy_Rate": 7.7299999999999995,
         "Bowling_Strike_Rate": 28.404285714285713,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 36.385714285714286
     },
     {
         "id": "4c442e6d-dc86-455a-8324-491af3025125",
@@ -1635,7 +1697,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "86c643b1-42c6-43fe-8754-0cace6b4b0e2",
@@ -1661,7 +1724,8 @@
         "Economy_Rate": 9.248333333333333,
         "Bowling_Strike_Rate": 22.968333333333334,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 35.43333333333333
     },
     {
         "id": "52e97acb-fc09-4033-bb0b-055b0bb6efdb",
@@ -1687,7 +1751,8 @@
         "Economy_Rate": 8.12,
         "Bowling_Strike_Rate": 17.166666666666668,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.753333333333334
     },
     {
         "id": "a34d681c-e4d1-4955-9d51-a015a53a0963",
@@ -1713,7 +1778,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 39.056
     },
     {
         "id": "31640015-db1a-46b0-b2f3-de6b855603ea",
@@ -1739,7 +1805,8 @@
         "Economy_Rate": 7.878,
         "Bowling_Strike_Rate": 22.172,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.469999999999995
     },
     {
         "id": "e1c1a385-c94a-4ca6-bf76-bc157e977215",
@@ -1765,7 +1832,8 @@
         "Economy_Rate": 6.785,
         "Bowling_Strike_Rate": 2.25,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 3.0416666666666665
     },
     {
         "id": "30c07993-38ec-442d-a662-e4825c1de0ce",
@@ -1791,7 +1859,8 @@
         "Economy_Rate": 9.101666666666667,
         "Bowling_Strike_Rate": 20.043333333333333,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 30.175
     },
     {
         "id": "554a389b-7f9f-4918-afb5-72b7d78b14f5",
@@ -1817,7 +1886,8 @@
         "Economy_Rate": 9.078,
         "Bowling_Strike_Rate": 28.76,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 43.9
     },
     {
         "id": "ea3d1f8d-ebc5-40e4-ad83-b09049467937",
@@ -1843,7 +1913,8 @@
         "Economy_Rate": 8.94142857142857,
         "Bowling_Strike_Rate": 19.900000000000002,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.35714285714286
     },
     {
         "id": "c0b1b257-6c51-4e29-872a-9d488c889818",
@@ -1869,7 +1940,8 @@
         "Economy_Rate": 8.9225,
         "Bowling_Strike_Rate": 13.2875,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 19.66625
     },
     {
         "id": "4ba203be-5579-4ee1-aa70-989520fa3ae6",
@@ -1895,7 +1967,8 @@
         "Economy_Rate": 9.623999999999999,
         "Bowling_Strike_Rate": 22.776,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 32.036
     },
     {
         "id": "df1e58b1-96e7-4d84-8769-934efe45112f",
@@ -1921,7 +1994,8 @@
         "Economy_Rate": 6.547142857142857,
         "Bowling_Strike_Rate": 13.285714285714286,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 23.250714285714285
     },
     {
         "id": "dda528f5-c2da-4c49-9716-2174c7fe6f68",
@@ -1947,7 +2021,8 @@
         "Economy_Rate": 8.709999999999999,
         "Bowling_Strike_Rate": 22.481666666666666,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 32.955000000000005
     },
     {
         "id": "b878ceb0-c5d4-48e3-aef5-e43132bf256d",
@@ -1973,7 +2048,8 @@
         "Economy_Rate": 8.73,
         "Bowling_Strike_Rate": 13.17375,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 18.905
     },
     {
         "id": "f16c0df1-a13a-477b-9cce-bc0c22093716",
@@ -1999,7 +2075,8 @@
         "Economy_Rate": 9.475714285714286,
         "Bowling_Strike_Rate": 15.905714285714286,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 23.397142857142857
     },
     {
         "id": "4707c727-a08b-402a-9037-cadbbfa33dc1",
@@ -2025,7 +2102,8 @@
         "Economy_Rate": 8.628571428571428,
         "Bowling_Strike_Rate": 26.762857142857143,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 39.08
     },
     {
         "id": "accee8a1-c5c8-403c-81ea-10c47c246507",
@@ -2051,7 +2129,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 41.962
     },
     {
         "id": "0baa3f8e-8540-4a94-bc58-161211106b47",
@@ -2077,7 +2156,8 @@
         "Economy_Rate": 10.214,
         "Bowling_Strike_Rate": 24.9,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 42.827999999999996
     },
     {
         "id": "054ec9c0-4849-4080-bdcc-0754e55327a4",
@@ -2103,7 +2183,8 @@
         "Economy_Rate": 8.342500000000001,
         "Bowling_Strike_Rate": 17.67,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 24.84
     },
     {
         "id": "ea973383-8d8b-4d77-8aa5-710b0ec89e12",
@@ -2129,7 +2210,8 @@
         "Economy_Rate": 8.64,
         "Bowling_Strike_Rate": 12.536249999999999,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 16.8825
     },
     {
         "id": "6eb41c69-d880-4e8e-9827-b41a6a53dd00",
@@ -2155,7 +2237,8 @@
         "Economy_Rate": 9.051666666666668,
         "Bowling_Strike_Rate": 30.083333333333332,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 49.32833333333334
     },
     {
         "id": "243eb1f8-cba1-48dd-a1b7-7352e208f7f7",
@@ -2181,7 +2264,8 @@
         "Economy_Rate": 7.2,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 27.221999999999998
     },
     {
         "id": "7aff575f-0390-4fa4-aa6e-b4ecd1bf9ba2",
@@ -2207,7 +2291,8 @@
         "Economy_Rate": 8.151666666666667,
         "Bowling_Strike_Rate": 36.806666666666665,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 51.095
     },
     {
         "id": "ef697a94-7050-4236-8099-49f362a9cd7d",
@@ -2233,7 +2318,8 @@
         "Economy_Rate": 4.9025,
         "Bowling_Strike_Rate": 4.25,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 5.75
     },
     {
         "id": "77dde529-7390-4cb7-a5d9-0e2a3ba03c81",
@@ -2259,7 +2345,8 @@
         "Economy_Rate": 6.142,
         "Bowling_Strike_Rate": 9.6,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 21.0
     },
     {
         "id": "82c54879-8eda-4597-99b9-4e29439350f7",
@@ -2285,7 +2372,8 @@
         "Economy_Rate": 8.446,
         "Bowling_Strike_Rate": 47.242000000000004,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 67.498
     },
     {
         "id": "456cb859-5838-43b9-83e6-85eeee058977",
@@ -2311,7 +2399,8 @@
         "Economy_Rate": 6.2475000000000005,
         "Bowling_Strike_Rate": 21.25,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.4225
     },
     {
         "id": "2cb4eda2-d15a-41fd-9b0f-12033588451c",
@@ -2337,7 +2426,8 @@
         "Economy_Rate": 7.042,
         "Bowling_Strike_Rate": 8.8,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.606
     },
     {
         "id": "9d9f0faa-01c1-461d-8c45-2a2c9c7f3903",
@@ -2363,7 +2453,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "9f1f6d05-cbd5-4b49-93dd-c546dd89a100",
@@ -2389,7 +2480,8 @@
         "Economy_Rate": 10.778,
         "Bowling_Strike_Rate": 19.168,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.584000000000003
     },
     {
         "id": "5422df96-94d7-432f-90a5-a92f2046c51a",
@@ -2415,7 +2507,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 25.633333333333336
     },
     {
         "id": "53815875-d066-4b19-8502-b609de407e70",
@@ -2441,7 +2534,8 @@
         "Economy_Rate": 8.8375,
         "Bowling_Strike_Rate": 23.7175,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 36.0325
     },
     {
         "id": "c684df2c-2e6d-4f2e-9961-973a2a303036",
@@ -2467,7 +2561,8 @@
         "Economy_Rate": 8.771666666666667,
         "Bowling_Strike_Rate": 21.099999999999998,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 30.838333333333335
     },
     {
         "id": "d2f32faa-a5ab-4b98-855b-4e270bc664ab",
@@ -2493,7 +2588,8 @@
         "Economy_Rate": 4.744285714285715,
         "Bowling_Strike_Rate": 6.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 6.714285714285714
     },
     {
         "id": "0910eaf2-20dc-4959-ada5-4c820735a670",
@@ -2519,7 +2615,8 @@
         "Economy_Rate": 7.816666666666666,
         "Bowling_Strike_Rate": 13.951666666666668,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 16.253333333333334
     },
     {
         "id": "876b5d9e-36c8-4383-add6-54b42e963feb",
@@ -2545,7 +2642,8 @@
         "Economy_Rate": 3.8333333333333335,
         "Bowling_Strike_Rate": 2.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 1.8333333333333333
     },
     {
         "id": "c22f1635-a472-4d7c-9c4b-4a482d4606ce",
@@ -2571,7 +2669,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 10.0
     },
     {
         "id": "fa1f6d79-e24d-4889-b222-da5cb6c97523",
@@ -2597,7 +2696,8 @@
         "Economy_Rate": 9.166666666666666,
         "Bowling_Strike_Rate": 11.966666666666667,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 14.420000000000002
     },
     {
         "id": "8bb8a4ce-e825-47bd-a802-d29558b06a24",
@@ -2623,7 +2723,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "3aad28ff-ca10-4b5f-b2e2-ef719af0b7ee",
@@ -2649,7 +2750,8 @@
         "Economy_Rate": 8.813333333333334,
         "Bowling_Strike_Rate": 10.826666666666666,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 15.07
     },
     {
         "id": "68e536b6-746b-43e5-aad8-e36cfdd721eb",
@@ -2675,7 +2777,8 @@
         "Economy_Rate": 4.5,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 34.656666666666666
     },
     {
         "id": "f161b85f-59c0-4fcb-8c8c-c305503946cf",
@@ -2701,7 +2804,8 @@
         "Economy_Rate": 9.293333333333333,
         "Bowling_Strike_Rate": 24.47,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 37.193333333333335
     },
     {
         "id": "65656329-2f85-4533-be11-48853298ffab",
@@ -2727,7 +2831,8 @@
         "Economy_Rate": 8.206666666666667,
         "Bowling_Strike_Rate": 29.0,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.991666666666667
     },
     {
         "id": "5894eed1-3c84-4b52-b9c7-43810dc8253e",
@@ -2753,7 +2858,8 @@
         "Economy_Rate": 10.49,
         "Bowling_Strike_Rate": 23.06,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 38.465
     },
     {
         "id": "18cbab53-d52f-4117-b49d-f8697874877b",
@@ -2779,7 +2885,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 46.845
     },
     {
         "id": "6d350509-a942-45e6-8df5-e24b1f3f3f2f",
@@ -2805,7 +2912,8 @@
         "Economy_Rate": 8.153333333333334,
         "Bowling_Strike_Rate": 14.743333333333334,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 19.13
     },
     {
         "id": "fc7c9a36-d871-433b-b51f-326ca7eb9037",
@@ -2831,7 +2939,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "16e1faa9-372d-44f5-b7c3-f7cea01530fb",
@@ -2857,7 +2966,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "98fbc4ff-160c-4fdf-8e17-85cdd39faa00",
@@ -2883,7 +2993,8 @@
         "Economy_Rate": 9.695,
         "Bowling_Strike_Rate": 25.235,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 41.3375
     },
     {
         "id": "4d6f7297-c63b-4085-a299-c512fc3ca79e",
@@ -2909,7 +3020,8 @@
         "Economy_Rate": 8.86,
         "Bowling_Strike_Rate": 14.156666666666666,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 20.95
     },
     {
         "id": "102759d3-d923-49e9-8815-75fa3bf4d1a3",
@@ -2935,7 +3047,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 44.07
     },
     {
         "id": "0d94fc08-3f57-43aa-b884-cf3892be11d3",
@@ -2961,7 +3074,8 @@
         "Economy_Rate": 6.558571428571428,
         "Bowling_Strike_Rate": 29.571428571428573,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 33.57142857142857
     },
     {
         "id": "466fe196-daa8-4c95-8e79-9bd39f8e61b7",
@@ -2987,7 +3101,8 @@
         "Economy_Rate": 8.986666666666666,
         "Bowling_Strike_Rate": 20.093333333333334,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.363333333333337
     },
     {
         "id": "8df3c4c4-e172-4575-85ea-de9b6d18995a",
@@ -3013,7 +3128,8 @@
         "Economy_Rate": 10.815,
         "Bowling_Strike_Rate": 32.86,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 60.6925
     },
     {
         "id": "a6a3b81e-e37c-4ac8-8ff3-538d4bdba054",
@@ -3039,7 +3155,8 @@
         "Economy_Rate": 8.665,
         "Bowling_Strike_Rate": 16.927500000000002,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 24.7
     },
     {
         "id": "43ba7734-b45f-49c8-b735-5eb74d549c5e",
@@ -3065,7 +3182,8 @@
         "Economy_Rate": 9.82,
         "Bowling_Strike_Rate": 15.407499999999999,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 22.085
     },
     {
         "id": "25f16833-14f9-4bb0-baa3-003567c2f6f5",
@@ -3091,7 +3209,8 @@
         "Economy_Rate": 9.35,
         "Bowling_Strike_Rate": 26.5,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 35.9725
     },
     {
         "id": "c4fcc05d-398a-40c0-a229-ec5e82ebf987",
@@ -3117,7 +3236,8 @@
         "Economy_Rate": 7.564,
         "Bowling_Strike_Rate": 21.774,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.65
     },
     {
         "id": "cb4c9a21-916d-4c70-bfaf-7be4514d7107",
@@ -3143,7 +3263,8 @@
         "Economy_Rate": 13.0,
         "Bowling_Strike_Rate": 6.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 9.0
     },
     {
         "id": "398ff776-7364-45e3-aa14-f61939dfcc1f",
@@ -3169,7 +3290,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "feb131a3-f344-43b1-9106-ee8550178ba0",
@@ -3195,7 +3317,8 @@
         "Economy_Rate": 9.443333333333333,
         "Bowling_Strike_Rate": 26.816666666666666,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 44.97
     },
     {
         "id": "2c9629f8-2a6f-494c-81dc-79b59311f18c",
@@ -3221,7 +3344,8 @@
         "Economy_Rate": 8.75,
         "Bowling_Strike_Rate": 33.846666666666664,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 47.47
     },
     {
         "id": "78e1aa02-3ed4-4e2a-ab44-14647594d430",
@@ -3247,7 +3371,8 @@
         "Economy_Rate": 9.306666666666667,
         "Bowling_Strike_Rate": 19.38,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 31.580000000000002
     },
     {
         "id": "a82493f7-0992-43ea-91c5-d0db45689247",
@@ -3273,7 +3398,8 @@
         "Economy_Rate": 6.9675,
         "Bowling_Strike_Rate": 23.625,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 27.375
     },
     {
         "id": "1f6fa175-c37e-477c-8627-86767e6fb6f3",
@@ -3299,7 +3425,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "d0b1cab7-e685-4f18-a7df-17b530708766",
@@ -3325,7 +3452,8 @@
         "Economy_Rate": 7.8100000000000005,
         "Bowling_Strike_Rate": 17.565,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 22.765
     },
     {
         "id": "e05cca59-b2f5-4a8f-98b0-9e220f73e0b3",
@@ -3351,7 +3479,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 44.32
     },
     {
         "id": "b5363a43-e0e8-4a30-9c89-ad2967e30ee4",
@@ -3377,7 +3506,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.780000000000005
     },
     {
         "id": "068830c1-401d-48ff-b774-9297bd5b9f28",
@@ -3403,7 +3533,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "a3ec25ec-30e4-4346-8ef2-4e49fa22990b",
@@ -3429,7 +3560,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 27.416666666666668
     },
     {
         "id": "02319a87-0a73-41c1-b7ca-667584cb56ab",
@@ -3455,7 +3587,8 @@
         "Economy_Rate": 7.82,
         "Bowling_Strike_Rate": 17.69,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 23.06
     },
     {
         "id": "0faba405-cc60-4910-93ec-870e1d150657",
@@ -3481,7 +3614,8 @@
         "Economy_Rate": 10.736666666666666,
         "Bowling_Strike_Rate": 21.16333333333333,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 37.775
     },
     {
         "id": "c7de1cc2-d0b4-4456-82ed-90716323d6c0",
@@ -3507,7 +3641,8 @@
         "Economy_Rate": 8.43,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.15
     },
     {
         "id": "821537d4-2f70-418f-96c8-99b831ce3292",
@@ -3533,7 +3668,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 10.0
     },
     {
         "id": "17cb125d-78f3-41a7-b26a-2089c0a16a74",
@@ -3559,7 +3695,8 @@
         "Economy_Rate": 9.32,
         "Bowling_Strike_Rate": 17.06,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.5
     },
     {
         "id": "fb4a570d-2f85-4b58-9990-7aab563c0d2f",
@@ -3585,7 +3722,8 @@
         "Economy_Rate": 8.615,
         "Bowling_Strike_Rate": 11.7,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 16.05
     },
     {
         "id": "b886ad1d-4540-4754-be69-d1972deedb0d",
@@ -3611,7 +3749,8 @@
         "Economy_Rate": 8.73,
         "Bowling_Strike_Rate": 29.33,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 42.67
     },
     {
         "id": "da93cf10-be7c-450e-81e5-5ad488b72fef",
@@ -3637,7 +3776,8 @@
         "Economy_Rate": 5.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "b6fdaace-efde-405a-be54-e66aeb6b4632",
@@ -3663,7 +3803,8 @@
         "Economy_Rate": 8.29,
         "Bowling_Strike_Rate": 23.4,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 32.9
     },
     {
         "id": "f6c36e09-59e8-4e66-9fb8-8ccff61cf0e5",
@@ -3689,7 +3830,8 @@
         "Economy_Rate": 7.683333333333334,
         "Bowling_Strike_Rate": 42.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 51.5
     },
     {
         "id": "5881f1e1-06aa-4e12-a711-be6475c0d3f8",
@@ -3715,7 +3857,8 @@
         "Economy_Rate": 7.776666666666666,
         "Bowling_Strike_Rate": 19.5,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.286666666666665
     },
     {
         "id": "953edb5b-c12f-47ce-9e89-88c14d1afe2a",
@@ -3741,7 +3884,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "e9b693ae-923d-46b9-bb61-6fbe4327ad74",
@@ -3767,7 +3911,8 @@
         "Economy_Rate": 8.65,
         "Bowling_Strike_Rate": 29.14,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 42.0
     },
     {
         "id": "f850999b-66f0-477f-ac18-586f3a70a27d",
@@ -3793,7 +3938,8 @@
         "Economy_Rate": 9.165,
         "Bowling_Strike_Rate": 27.435000000000002,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 41.935
     },
     {
         "id": "641a3129-5d8a-4cf3-9044-eb1abf2729e9",
@@ -3819,7 +3965,8 @@
         "Economy_Rate": 5.06,
         "Bowling_Strike_Rate": 12.0,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 24.425
     },
     {
         "id": "5d4b2f56-0c4f-4ea9-8295-e617ed7ca870",
@@ -3845,7 +3992,8 @@
         "Economy_Rate": 4.315,
         "Bowling_Strike_Rate": 20.5,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.5
     },
     {
         "id": "5df71289-62e8-4e32-9c0e-ca7872528665",
@@ -3871,7 +4019,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "2a208612-20ae-4d0d-b88f-54f695f31726",
@@ -3897,7 +4046,8 @@
         "Economy_Rate": 10.52,
         "Bowling_Strike_Rate": 26.57,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 46.57
     },
     {
         "id": "aaf684f7-61be-4b80-b192-3703b01d1363",
@@ -3923,7 +4073,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 10.0
     },
     {
         "id": "1b4cd38b-f150-45d2-a1df-c442594959b9",
@@ -3949,7 +4100,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 40.625
     },
     {
         "id": "14070571-9e5a-4484-a76d-2f3952fd8c93",
@@ -3975,7 +4127,8 @@
         "Economy_Rate": 11.705,
         "Bowling_Strike_Rate": 7.345,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 11.115
     },
     {
         "id": "3609008c-5228-4dea-8fea-17c55f667d37",
@@ -4001,7 +4154,8 @@
         "Economy_Rate": 9.375,
         "Bowling_Strike_Rate": 9.44,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 14.815000000000001
     },
     {
         "id": "e942373a-92bb-494d-b6cc-746b77db945e",
@@ -4027,7 +4181,8 @@
         "Economy_Rate": 9.033333333333333,
         "Bowling_Strike_Rate": 19.466666666666665,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 30.46666666666667
     },
     {
         "id": "c6be3817-225b-44d4-8b88-fc746de0bc54",
@@ -4053,7 +4208,8 @@
         "Economy_Rate": 9.035,
         "Bowling_Strike_Rate": 13.635,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 20.205
     },
     {
         "id": "baca059d-e7ca-47f5-b826-2370130edef5",
@@ -4079,7 +4235,8 @@
         "Economy_Rate": 8.335,
         "Bowling_Strike_Rate": 15.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 20.0
     },
     {
         "id": "3750ae43-b45a-4f6e-aa82-e6be7ca43bd0",
@@ -4105,7 +4262,8 @@
         "Economy_Rate": 8.59,
         "Bowling_Strike_Rate": 10.93,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 15.64
     },
     {
         "id": "4d8151f4-eefe-4204-b8d6-3e165f3a6509",
@@ -4131,7 +4289,8 @@
         "Economy_Rate": 8.0,
         "Bowling_Strike_Rate": 1.5,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 34.5
     },
     {
         "id": "350aff89-4b24-43f3-965c-4edcc43cdba9",
@@ -4157,7 +4316,8 @@
         "Economy_Rate": 8.975,
         "Bowling_Strike_Rate": 28.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 42.125
     },
     {
         "id": "718d5920-b248-42fa-8e90-69e6d075ef0b",
@@ -4183,7 +4343,8 @@
         "Economy_Rate": 9.92,
         "Bowling_Strike_Rate": 24.0,
         "Type": "All-rounder",
-        "img_url": null
+        "img_url": null,
+        "player_score": 33.735
     },
     {
         "id": "44986d87-d282-4b7f-bfe1-01d2d0bd12f3",
@@ -4209,7 +4370,8 @@
         "Economy_Rate": 10.54,
         "Bowling_Strike_Rate": 16.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.110000000000003
     },
     {
         "id": "1d5edc9c-e7fb-4058-9d20-bf4917ff451c",
@@ -4235,7 +4397,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "cea36c02-ec6b-4a66-a5da-b9f0250ea47c",
@@ -4261,7 +4424,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 26.57
     },
     {
         "id": "f96d8bb2-bcee-4cc9-b6cb-166c5a47e904",
@@ -4287,7 +4451,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "2198159a-53ea-487c-adaf-4420439de19c",
@@ -4313,7 +4478,8 @@
         "Economy_Rate": 11.34,
         "Bowling_Strike_Rate": 26.3,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 50.0
     },
     {
         "id": "e7790bdf-a831-4cad-8a30-c7a2cff047ce",
@@ -4339,7 +4505,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "d4c84af7-7f95-4d32-8bd5-001b71067cdd",
@@ -4365,7 +4532,8 @@
         "Economy_Rate": 7.67,
         "Bowling_Strike_Rate": 27.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 34.5
     },
     {
         "id": "1ef91457-e446-4afd-a107-a61730611f6c",
@@ -4391,7 +4559,8 @@
         "Economy_Rate": 9.82,
         "Bowling_Strike_Rate": 11.4,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 18.8
     },
     {
         "id": "ac2d78ca-6d6f-44bd-ae8a-16148e67490f",
@@ -4417,7 +4586,8 @@
         "Economy_Rate": 7.163333333333334,
         "Bowling_Strike_Rate": 23.333333333333332,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 29.223333333333336
     },
     {
         "id": "c676e470-a609-4edc-b94f-7ec0be1c82dc",
@@ -4443,7 +4613,8 @@
         "Economy_Rate": 13.41,
         "Bowling_Strike_Rate": 17.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 38.0
     },
     {
         "id": "3fdaa726-270d-44cb-b132-39e2cd4aafb8",
@@ -4469,7 +4640,8 @@
         "Economy_Rate": 4.5,
         "Bowling_Strike_Rate": 3.0,
         "Type": "Batsman",
-        "img_url": null
+        "img_url": null,
+        "player_score": 28.749999999999996
     },
     {
         "id": "3017ef57-ff3f-47d2-a3f6-1bd7086c5494",
@@ -4495,7 +4667,8 @@
         "Economy_Rate": 7.494999999999999,
         "Bowling_Strike_Rate": 18.5,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 23.085
     },
     {
         "id": "ba11722d-a213-4f7a-ba61-f6a09a6316f9",
@@ -4521,7 +4694,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Wicket Keeper-Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 10.0
     },
     {
         "id": "a2d94b7b-d5ba-4212-8ebe-a868658459f2",
@@ -4547,7 +4721,8 @@
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 0.0
     },
     {
         "id": "d0ee46f4-ce57-4452-a79e-2a04192a4cfa",
@@ -4573,7 +4748,8 @@
         "Economy_Rate": 2.3333333333333335,
         "Bowling_Strike_Rate": 4.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 4.666666666666667
     },
     {
         "id": "5c83289b-1a3b-452c-a15c-72db3f051ea0",
@@ -4599,6 +4775,7 @@
         "Economy_Rate": 7.775,
         "Bowling_Strike_Rate": 33.0,
         "Type": "Bowler",
-        "img_url": null
+        "img_url": null,
+        "player_score": 41.5
     }
 ]

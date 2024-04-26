@@ -6,10 +6,9 @@ from tabulate import tabulate
 def display_player_details(player):
     df = pd.read_csv('assets/stat_df.csv')
     playerName = player['Player_Name']
-    # Filter the DataFrame for the selected player
     player_df = df[df['Player_Name'] == playerName]
 
-    # Convert DataFrame to a tabular format
+    
     batting_fielding_table = tabulate(player_df[['Year', 'Mat', 'NO', 'Runs', 'HS', 'BAvg', 'BF', 'BSR', '100s', '50s', '4s', '6s', 'CT', 'S']], headers='keys', tablefmt='html', showindex=False)
     bowling_table = tabulate(player_df[['Year', 'Mat', 'Balls', 'RC', 'W', 'BoAvg', 'E', 'BoSR', '4W', '5W']], headers='keys', tablefmt='html', showindex=False)
 
@@ -49,6 +48,9 @@ def app():
                     st.write("Image not available")
                 
                 st.write(player['Type'])
+                score = player["player_score"]
+                formatted_score = "{:.2f}".format(score)
+                st.write(f"Score : {formatted_score}")
                 
             # Display player statistics in the second column
             with col2:

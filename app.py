@@ -5,6 +5,7 @@ from winner_prediction import app as winner_prediction_app
 from team_stats import app as team_statistics_app
 from player_stats import app as player_statistics_app
 from score_prediction import app as score_prediction_app
+from custom_team import app as custom_team
 
 
 
@@ -25,7 +26,7 @@ class MultiApp:
         with st.sidebar:        
             app = option_menu(
                 menu_title='Main Menu',
-                options=['Winner Prediction','Team Statistics','Player Statistics','Score Prediction',],
+                options=['Winner Prediction','Team Statistics','Player Statistics','Score Prediction','Custom Team'],
                 menu_icon='null',
                 default_index=1,
             )
@@ -42,6 +43,7 @@ app.add_app("Winner Prediction", winner_prediction_app)
 app.add_app("Team Statistics", team_statistics_app)
 app.add_app("Player Statistics", player_statistics_app)
 app.add_app("Score Prediction", score_prediction_app)
+app.add_app("Custom Team", custom_team)
 
 # Run the MultiApp
 app.run()
