@@ -643,9 +643,9 @@
         "Bowling_Average": 0.0,
         "Economy_Rate": 0.0,
         "Bowling_Strike_Rate": 0.0,
-        "Type": "Bowler",
+        "Type": "Batsman",
         "img_url": "https://scores.iplt20.com/ipl/playerimages/Mayank%20Agarwal.png?v=4",
-        "player_score": 0.0
+        "player_score": 25.51
     },
     {
         "id": "d5153802-b2c8-4a8a-9126-f5230d9011b0",

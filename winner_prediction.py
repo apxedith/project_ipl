@@ -77,20 +77,19 @@ def get_filtered_match_stats(ipl_df, team1_name, team2_name, toss_winner_name, t
     return num_matches, team1_wins, team2_wins
 
 def app():
-    st.title("Winner Prediction")
-    st.write("This is the Winner Prediction page.")
+    st.markdown("<h1 style='text-align: center; color: white;'> Winner Prediction </h1>", unsafe_allow_html=True)
 
-    team1 = st.selectbox('Team 1', tuple(team_mapping.keys()), index=0)
-    team2 = st.selectbox('Team 2', tuple(team_mapping.keys()), index=1)
+    team1 = st.selectbox('Team 1', tuple(team_mapping.keys()), index=None)
+    team2 = st.selectbox('Team 2', tuple(team_mapping.keys()), index=None)
 
     if team1 == team2:
         st.error('Team 1 and Team 2 should be different')
         return
 
     toss_winner_options = [team1, team2] if team1 and team2 else ()
-    toss_winner = st.selectbox('Toss Winner', toss_winner_options)
+    toss_winner = st.selectbox('Toss Winner', toss_winner_options,)
 
-    toss_decision = st.selectbox('Toss Decision', ('field', 'bat'))
+    toss_decision = st.selectbox('Toss Decision', ('field', 'bat'),)
 
     if st.button("Predict"):
         predicted = score_predict(team1, team2, toss_winner, toss_decision)

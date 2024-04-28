@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from tabulate import tabulate
 import json
+import altair as alt
 
 
 def display_team_details(team):
@@ -23,6 +24,8 @@ def display_team_details(team):
             st.write(f"### {team_name}")
             st.write("Image not available")
         # Extract required statistics
+        st.write("")
+        st.write("")
         statistics = [
             ("Mat", team_data["matches"]),
             ("Won", team_data["won"]),
@@ -45,18 +48,48 @@ def display_team_details(team):
         st.write("")
         st.write("")
         st.write("<h3>Team Season Performance</h3>", unsafe_allow_html=True)
+
+        st.write("")
+        st.write("")
+
         team_df = pd.read_csv('assets/team_wins_per_season.csv')
         
+
+        # Filter data for the selected team
         selected_team_df = team_df[team_df['team_name'] == team_name]
 
-        # Plot the graph
-        selected_team_df = selected_team_df.set_index('team_name')
-        selected_team_df = selected_team_df.transpose()  # Transpose to have years as index
-        st.line_chart(selected_team_df)
+        # Transpose the DataFrame to have years as index
+        selected_team_df = selected_team_df.set_index('team_name').transpose()
+
+        # Reset index to turn the index into a column
+        selected_team_df.reset_index(inplace=True)
+
+        # Rename columns for clarity
+        selected_team_df.rename(columns={'index': 'Season', team_name: 'Matches Won'}, inplace=True)
+
+        # Create the line chart using Altair
+        chart = alt.Chart(selected_team_df).mark_line().encode(
+            x='Season',
+            y='Matches Won'
+        ).properties(
+            width=600,
+            height=400
+        )
+
+        # Add axis titles
+        chart = chart.properties(
+            title=''
+        ).configure_axis(
+            titleFontSize=14,
+            labelFontSize=12
+        )
+
+        # Display the chart
+        st.altair_chart(chart, use_container_width=True)
 
 
-    else:
-        st.write("Team statistics not found.")
+
+
 
 
 def app():

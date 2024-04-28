@@ -14,11 +14,11 @@ def app():
     model = joblib.load('assets\model_score_predict.pkl')
     st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor </h1>", unsafe_allow_html=True)
 
-    batting_team = st.selectbox('Select the Batting Team', ('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals', 'Royal Challengers Bangalore', 'Sunrisers Hyderabad'))
+    batting_team = st.selectbox('Select the Batting Team', ('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals', 'Royal Challengers Bangalore', 'Sunrisers Hyderabad'),index=None)
 
     prediction_array = map_team_to_array(batting_team)
 
-    bowling_team = st.selectbox('Select the Bowling Team', ('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals', 'Royal Challengers Bangalore', 'Sunrisers Hyderabad'))
+    bowling_team = st.selectbox('Select the Bowling Team', ('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals', 'Royal Challengers Bangalore', 'Sunrisers Hyderabad'),index=None)
     
     if bowling_team == batting_team:
         st.error('Bowling and Batting teams should be different')

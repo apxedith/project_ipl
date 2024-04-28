@@ -26,9 +26,9 @@ class MultiApp:
         with st.sidebar:        
             app = option_menu(
                 menu_title='Main Menu',
-                options=['Winner Prediction','Team Statistics','Player Statistics','Score Prediction','Custom Team'],
+                options=['Winner Prediction','Team Statistics','Player Statistics','Score Prediction','Custom Line Up'],
                 menu_icon='null',
-                default_index=1,
+                default_index=0,
             )
 
         for item in self.apps:
@@ -43,7 +43,7 @@ app.add_app("Winner Prediction", winner_prediction_app)
 app.add_app("Team Statistics", team_statistics_app)
 app.add_app("Player Statistics", player_statistics_app)
 app.add_app("Score Prediction", score_prediction_app)
-app.add_app("Custom Team", custom_team)
+app.add_app("Custom Line Up", custom_team)
 
 # Run the MultiApp
 app.run()
