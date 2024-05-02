@@ -93,7 +93,7 @@ def display_team_details(team):
 
 
 def app():
-    st.markdown("<h1 style='text-align: center; color: white;'> Team Statistics </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Team Statistics </h1>", unsafe_allow_html=True)
 
     with open('assets/team_stat.json', 'r') as f:
         data = json.load(f)

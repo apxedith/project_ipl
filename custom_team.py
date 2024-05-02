@@ -21,8 +21,18 @@ def load_players_data():
 def filter_players_by_type(players_data, player_types, selected_players):
     return [player["Player_Name"] for player in players_data if player["Type"] in player_types and player["Player_Name"] not in selected_players]
 
+def filter_players_by_type_with_score(players_data, player_types, selected_players):
+    filtered_players = []
+    for player in players_data:
+        if player["Type"] in player_types and player["Player_Name"] not in selected_players:
+            formatted_score = "{:.2f}".format(player['player_score'])
+            filtered_players.append(f"{player['Player_Name']} (Score: {formatted_score})")
+    return filtered_players
+
+
+
 def app():
-    st.markdown("<h1 style='text-align: center; color: white;'> Custom Line Up </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Custom Line Up </h1>", unsafe_allow_html=True)
 
     # Load player data
     players_data = load_players_data()
@@ -40,34 +50,45 @@ def app():
     
     # Select box for bowlers
     
-    team1_bowlers = st.multiselect("Select 3 Bowlers", options=filter_players_by_type(players_data, ["Bowler"], team1_selected_players), key="team1_bowlers")
-    if len(team1_bowlers) != 3:
+    team1_bowlers_options = filter_players_by_type_with_score(players_data, ["Bowler"], team1_selected_players)
+    team1_bowlers = st.multiselect("Select 3 Bowlers", options=team1_bowlers_options, key="team1_bowlers",max_selections=3)
+    team1_bowlers_selected = [player.split(' (Score: ')[0] for player in team1_bowlers]
+    if len(team1_bowlers_selected) != 3:
         st.warning("Please select exactly 3 bowlers.")
-    team1_selected_players.extend(team1_bowlers)
+    team1_selected_players.extend(team1_bowlers_selected)
     players_data = update_available_players(team1_selected_players)
 
     # Select box for batsmen
-    team1_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type(players_data, ["Batsman"], team1_selected_players), key="team1_batsmen")
-    if len(team1_batsmen) != 3:
+    team1_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type_with_score(players_data, ["Batsman"], team1_selected_players,), key="team1_batsmen",max_selections=3,)
+    team1_batsmen_selected = [player.split(' (Score: ')[0] for player in team1_batsmen]
+    if len(team1_batsmen_selected) != 3:
             st.warning("Please select exactly 3 batsmen.")
-    team1_selected_players.extend(team1_batsmen)
-    players_data = update_available_players(team1_selected_players)
+    team1_selected_players.extend(team1_batsmen_selected)
+    players_data = update_available_players(team1_batsmen_selected)
 
     # Select box for wicketkeeper
-    team1_wk = st.selectbox("Select a Wicketkeeper", options=filter_players_by_type(players_data, ["Wicket Keeper-Batsman", "Wicket Keeper-Bowler"], team1_selected_players), key="team1_wk",index=None)
-    team1_selected_players.append(team1_wk)
-    players_data = update_available_players(team1_selected_players)
+    team1_wk = st.selectbox("Select a Wicketkeeper", options=filter_players_by_type_with_score(players_data, ["Wicket Keeper-Batsman", "Wicket Keeper-Bowler"], team1_selected_players), key="team1_wk",index=None)
+    if team1_wk is not None:
+        team1_wk_selected = team1_wk.split(' (Score: ')[0]
+        team1_selected_players.append(team1_wk_selected)
+        players_data = update_available_players(team1_selected_players)
+    else:
+        st.warning("Please select a wicketkeeper.")
 
-    team1_a = st.selectbox("Select a All-Rounder", options=filter_players_by_type(players_data, ["All-rounder"], team1_selected_players), key="team1_a",index=None)
-    team1_selected_players.append(team1_a)
-    players_data = update_available_players(team1_selected_players)
+    team1_a = st.selectbox("Select a All-Rounder", options=filter_players_by_type_with_score(players_data, ["All-rounder"], team1_selected_players), key="team1_a",index=None)
+    if team1_a is not None:
+        team1_a_selected = team1_a.split(' (Score: ')[0]
+        team1_selected_players.append(team1_a_selected)
+        players_data = update_available_players(team1_selected_players)
+    else:
+        st.warning("Please select a wicketkeeper.")
 
     # Select box for remaining players for Team 1
     remaining_player_types = ["Bowler", "Batsman", "All-Rounder"]
-    remaining_players_team1 = filter_players_by_type(players_data, remaining_player_types, team1_selected_players)
-    
-    selected_remaining_players_team1 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team1, key="team1_remaining")
-    team1_selected_players.extend(selected_remaining_players_team1)
+    remaining_players_team1 = filter_players_by_type_with_score(players_data, remaining_player_types, team1_selected_players)
+    selected_remaining_players_team1 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team1, key="team1_remaining",max_selections=3,)
+    team1_remaining_selected = [player.split(' (Score: ')[0] for player in selected_remaining_players_team1]
+    team1_selected_players.extend(team1_remaining_selected)
     players_data = update_available_players(team1_selected_players)
 
     # Ensure exactly 11 players are selected for Team 1
@@ -110,36 +131,45 @@ def app():
     # Display player selection for Team 2
     st.header("Team 2 Selection")
 
-    # Select box for bowlers
-    team2_bowlers = st.multiselect("Select 3 Bowlers", options=filter_players_by_type(players_data, ["Bowler"], team2_selected_players), key="team2_bowlers",)
-    if len(team2_bowlers) != 3:
+    team2_bowlers_options = filter_players_by_type_with_score(players_data, ["Bowler"], team2_selected_players)
+    team2_bowlers = st.multiselect("Select 3 Bowlers", options=team2_bowlers_options, key="team2_bowlers",max_selections=3)
+    team2_bowlers_selected = [player.split(' (Score: ')[0] for player in team2_bowlers]
+    if len(team2_bowlers_selected) != 3:
         st.warning("Please select exactly 3 bowlers.")
-    team2_selected_players.extend(team2_bowlers)
+    team2_selected_players.extend(team2_bowlers_selected)
     players_data = update_available_players(team2_selected_players)
 
     # Select box for batsmen
-    
-    team2_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type(players_data, ["Batsman"], team2_selected_players), key="team2_batsmen")
-    if len(team2_batsmen) != 3:
-        st.warning("Please select exactly 3 batsmen.")
-    team2_selected_players.extend(team2_batsmen)
-    players_data = update_available_players(team2_selected_players)
+    team2_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type_with_score(players_data, ["Batsman"], team2_selected_players,), key="team2_batsmen",max_selections=3,)
+    team2_batsmen_selected = [player.split(' (Score: ')[0] for player in team2_batsmen]
+    if len(team2_batsmen_selected) != 3:
+            st.warning("Please select exactly 3 batsmen.")
+    team2_selected_players.extend(team2_batsmen_selected)
+    players_data = update_available_players(team2_batsmen_selected)
 
     # Select box for wicketkeeper
-    team2_wk = st.selectbox("Select a Wicketkeeper", options=filter_players_by_type(players_data, ["Wicket Keeper-Batsman", "Wicket Keeper-Bowler"], team2_selected_players), key="team2_wk",index=None)
-    team2_selected_players.append(team2_wk)
-    players_data = update_available_players(team2_selected_players)
+    team2_wk = st.selectbox("Select a Wicketkeeper", options=filter_players_by_type_with_score(players_data, ["Wicket Keeper-Batsman", "Wicket Keeper-Bowler"], team2_selected_players), key="team2_wk",index=None)
+    if team2_wk is not None:
+        team2_wk_selected = team2_wk.split(' (Score: ')[0]
+        team2_selected_players.append(team2_wk_selected)
+        players_data = update_available_players(team2_selected_players)
+    else:
+        st.warning("Please select a wicketkeeper.")
 
-    team2_a = st.selectbox("Select an All-Rounder", 
-                       options=filter_players_by_type(players_data, ["All-rounder"], team2_selected_players,), 
-                       key="team2_a",index=None)
-    team2_selected_players.append(team2_a)
-    players_data = update_available_players(team2_selected_players)
+    team2_a = st.selectbox("Select a All-Rounder", options=filter_players_by_type_with_score(players_data, ["All-rounder"], team2_selected_players), key="team2_a",index=None)
+    if team2_a is not None:
+        team2_a_selected = team2_a.split(' (Score: ')[0]
+        team2_selected_players.append(team2_a_selected)
+        players_data = update_available_players(team2_selected_players)
+    else:
+        st.warning("Please select a wicketkeeper.")
 
-    # Select box for remaining players for Team 2
-    remaining_players_team2 = filter_players_by_type(players_data, remaining_player_types, team2_selected_players)
-    selected_remaining_players_team2 = st.multiselect("Select Remaining Players for Team 2", options=remaining_players_team2, key="team2_remaining")
-    team2_selected_players.extend(selected_remaining_players_team2)
+    # Select box for remaining players for Team 1
+    remaining_player_types = ["Bowler", "Batsman", "All-Rounder"]
+    remaining_players_team2 = filter_players_by_type_with_score(players_data, remaining_player_types, team2_selected_players)
+    selected_remaining_players_team2 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team2, key="team2_remaining",max_selections=3,)
+    team2_remaining_selected = [player.split(' (Score: ')[0] for player in selected_remaining_players_team2]
+    team2_selected_players.extend(team2_remaining_selected)
     players_data = update_available_players(team2_selected_players)
 
     # Ensure exactly 11 players are selected for Team 2

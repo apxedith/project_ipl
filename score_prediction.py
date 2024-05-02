@@ -12,7 +12,7 @@ def map_team_to_array(team):
 
 def app():
     model = joblib.load('assets\model_score_predict.pkl')
-    st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> IPL Score Predictor </h1>", unsafe_allow_html=True)
 
     batting_team = st.selectbox('Select the Batting Team', ('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals', 'Royal Challengers Bangalore', 'Sunrisers Hyderabad'),index=None)
 

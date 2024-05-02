@@ -77,7 +77,7 @@ def get_filtered_match_stats(ipl_df, team1_name, team2_name, toss_winner_name, t
     return num_matches, team1_wins, team2_wins
 
 def app():
-    st.markdown("<h1 style='text-align: center; color: white;'> Winner Prediction </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Winner Prediction </h1>", unsafe_allow_html=True)
 
     team1 = st.selectbox('Team 1', tuple(team_mapping.keys()), index=None)
     team2 = st.selectbox('Team 2', tuple(team_mapping.keys()), index=None)

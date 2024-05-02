@@ -25,7 +25,7 @@ def display_player_details(player):
     st.write(bowling_table, unsafe_allow_html=True)
 
 def app():
-    st.markdown("<h1 style='text-align: center; color: white;'> Player Statistics </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Player Statistics </h1>", unsafe_allow_html=True)
     # Read player data from JSON file
     with open('assets/player_data.json') as f:
         players = json.load(f)
