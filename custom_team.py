@@ -51,7 +51,7 @@ def app():
     # Select box for bowlers
     
     team1_bowlers_options = filter_players_by_type_with_score(players_data, ["Bowler"], team1_selected_players)
-    team1_bowlers = st.multiselect("Select 3 Bowlers", options=team1_bowlers_options, key="team1_bowlers",max_selections=3)
+    team1_bowlers = st.multiselect("Select 3 Bowlers", options=team1_bowlers_options, key="team1_bowlers",)
     team1_bowlers_selected = [player.split(' (Score: ')[0] for player in team1_bowlers]
     if len(team1_bowlers_selected) != 3:
         st.warning("Please select exactly 3 bowlers.")
@@ -59,7 +59,7 @@ def app():
     players_data = update_available_players(team1_selected_players)
 
     # Select box for batsmen
-    team1_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type_with_score(players_data, ["Batsman"], team1_selected_players,), key="team1_batsmen",max_selections=3,)
+    team1_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type_with_score(players_data, ["Batsman"], team1_selected_players,), key="team1_batsmen",)
     team1_batsmen_selected = [player.split(' (Score: ')[0] for player in team1_batsmen]
     if len(team1_batsmen_selected) != 3:
             st.warning("Please select exactly 3 batsmen.")
@@ -86,7 +86,7 @@ def app():
     # Select box for remaining players for Team 1
     remaining_player_types = ["Bowler", "Batsman", "All-Rounder"]
     remaining_players_team1 = filter_players_by_type_with_score(players_data, remaining_player_types, team1_selected_players)
-    selected_remaining_players_team1 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team1, key="team1_remaining",max_selections=3,)
+    selected_remaining_players_team1 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team1, key="team1_remaining",)
     team1_remaining_selected = [player.split(' (Score: ')[0] for player in selected_remaining_players_team1]
     team1_selected_players.extend(team1_remaining_selected)
     players_data = update_available_players(team1_selected_players)
@@ -132,7 +132,7 @@ def app():
     st.header("Team 2 Selection")
 
     team2_bowlers_options = filter_players_by_type_with_score(players_data, ["Bowler"], team2_selected_players)
-    team2_bowlers = st.multiselect("Select 3 Bowlers", options=team2_bowlers_options, key="team2_bowlers",max_selections=3)
+    team2_bowlers = st.multiselect("Select 3 Bowlers", options=team2_bowlers_options, key="team2_bowlers",)
     team2_bowlers_selected = [player.split(' (Score: ')[0] for player in team2_bowlers]
     if len(team2_bowlers_selected) != 3:
         st.warning("Please select exactly 3 bowlers.")
@@ -140,7 +140,7 @@ def app():
     players_data = update_available_players(team2_selected_players)
 
     # Select box for batsmen
-    team2_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type_with_score(players_data, ["Batsman"], team2_selected_players,), key="team2_batsmen",max_selections=3,)
+    team2_batsmen = st.multiselect("Select 3 Batsmen", options=filter_players_by_type_with_score(players_data, ["Batsman"], team2_selected_players,), key="team2_batsmen",)
     team2_batsmen_selected = [player.split(' (Score: ')[0] for player in team2_batsmen]
     if len(team2_batsmen_selected) != 3:
             st.warning("Please select exactly 3 batsmen.")
@@ -167,7 +167,7 @@ def app():
     # Select box for remaining players for Team 1
     remaining_player_types = ["Bowler", "Batsman", "All-Rounder"]
     remaining_players_team2 = filter_players_by_type_with_score(players_data, remaining_player_types, team2_selected_players)
-    selected_remaining_players_team2 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team2, key="team2_remaining",max_selections=3,)
+    selected_remaining_players_team2 = st.multiselect("Select Remaining Players for Team 1", options=remaining_players_team2, key="team2_remaining",)
     team2_remaining_selected = [player.split(' (Score: ')[0] for player in selected_remaining_players_team2]
     team2_selected_players.extend(team2_remaining_selected)
     players_data = update_available_players(team2_selected_players)
